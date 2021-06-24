@@ -1,4 +1,4 @@
-using GrpcHelloWorld.Services;
+using GrpcHelloWorldServer.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GrpcHelloWorld
+namespace GrpcHelloWorldServer
 {
     public class Startup
     {

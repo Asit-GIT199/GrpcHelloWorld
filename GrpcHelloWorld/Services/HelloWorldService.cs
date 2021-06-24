@@ -1,12 +1,12 @@
 ﻿using Grpc.Core;
-using GrpcHelloWorld.Protos;
+using GrpcHelloWorldServer.Protos;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GrpcHelloWorld.Services
+namespace GrpcHelloWorldServer.Services
 {
     public class HelloWorldService : HelloService.HelloServiceBase
     {
